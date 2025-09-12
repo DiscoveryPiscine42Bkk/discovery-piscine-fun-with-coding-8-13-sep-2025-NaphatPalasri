@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: #ffc107 !important;
+}
+
+.smooth-btn {
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+.smooth-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+.yellow-btn { background-color: #ffc107; color: #000; }
+.green-btn { background-color: #20c997; color: #fff; }
+
+.smooth-card {
+  transition: all 0.3s ease;
+}
+.smooth-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.smooth-nav {
+  transition: background-color 0.3s ease-in-out;
+}

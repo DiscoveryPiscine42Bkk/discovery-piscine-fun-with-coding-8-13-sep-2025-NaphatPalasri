@@ -1,0 +1,49 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg1 {
+  background-image: url("https://www.fangamer.com/cdn/shop/files/product_DR_hat-ralsei_plush_itemview_5840f83d-171b-4ab2-a5ac-027a8dbc21c7_720x720.png?v=1691705065");
+}
+
+.bg2 {
+  background-image: url("https://www.fangamer.com/cdn/shop/files/product_DR_no_hat_ralsei_plush_itemview_720x720.png?v=1691703459");
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  background: rgba(0,0,0,0.5);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.section.black {
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section.black .caption {
+  position: static;
+  transform: none;
+  background: none;
+}
